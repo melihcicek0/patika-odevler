@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Ana Sayfa</title>
+    <style>
+        .container{
+            width: 92%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        header{
+            width: 100%;
+            text-align: center;
+        }
+        main{
+            width: 100%;
+        }
+        #search-box{
+            text-align: center;
+            background-color: #f2f2f2;
+            margin-bottom: 3px;
+        }
+        #search-box input{
+            width: 300px;
+        }
+        #Special-Search{
+            text-align: center;
+            float: left;
+            width: 40%;
+            background-color: rgba(91, 250, 250, 0.753);
+            padding-top: 5px;
+            height: 65px;
+        }
+        #Special-Search p{
+            margin: 0px;
+        }
+        #help{
+            width: 20%;
+            float: left;
+            background-color: rgba(54, 209, 209, 0.753);
+            height: 70px;
+        }
+        #help ul{
+            padding: 0px;
+            list-style-type: none;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            /*padding-right: 35px;*/
+            margin-top: 8px;
+        }
+        #Subscribe{
+            width:40%;
+            float: left;
+            background-color: rgba(45, 173, 173, 0.753);
+            height: 70px;
+        }
+        .comp{
+            text-align: center;
+        }
+        .comp ul{
+            padding: 0px;
+            list-style: none;
+            font-size: 12px;
+            margin-top: 0px;
+        }
+        footer{
+            margin-top: 90px;
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="">
+        </header>
+        <main>
+            <section id="search-box">
+                <label for="txtBox">Search the web using Google!</label>
+                <br>
+                <input type="text" name="txtBox" id="txtBox">
+                <br>
+                <button>Google Search</button>
+                <button>I'm feeling lucky</button>
+            </section>
+            <section id="Special-Search">
+                    <p>Special Search</p> 
+                    <a href="" style="display: block;">Standford Search</a>
+                    <a href="" style="display: block;">Linux Search</a>
+            </section>
+            <section id="help">
+                <ul>
+                    <li><a href="">Help!</a></li>
+                    <li><a href="">About Google!</a></li>
+                    <li><a href="">Company Info</a></li>
+                    <li><a href="">Google! Logos</a></li>
+                </ul>
+            </section>
+            <section id="Subscribe">
+                <div class="comp">
+                    <ul>
+                        <li>Get Google!</li>
+                        <li>updates mounthly:</li>
+                        <li><input type="text" name="subs-txt" id="subs-txt"></li>
+                        <li>
+                            <button>Subscribe</button>
+                            <a href="">Archive</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>       
+        <footer>
+            <p>
+                Copyright © 1998 Google Inc.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
